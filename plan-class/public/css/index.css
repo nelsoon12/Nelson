@@ -1,0 +1,146 @@
+/* index.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #3b5998, #00aced); 
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* Fundo branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card {
+    background: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    text-transform: uppercase;
+    background-color: #1877f2; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #1877f2; 
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #145dbf; 
+    box-shadow: 0 4px 8px rgba(20, 93, 191, 0.5);
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    color: #333;
+    text-align: left;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6; 
+}
+
+.table th {
+    background-color: #e9ecef; 
+    color: #333;
+    text-transform: uppercase;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f9fa; 
+}
+
+.table tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+.table tr:hover {
+    background-color: #e2e6ea; 
+}
+
+.btn-warning {
+    background-color: #ffc107; 
+    border: none;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; 
+    box-shadow: 0 4px 8px rgba(224, 168, 0, 0.5);
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    border: none;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; 
+    box-shadow: 0 4px 8px rgba(200, 35, 51, 0.5);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pagination a, .pagination span {
+    color: #333; 
+    padding: 8px 16px;
+    margin: 0 4px;
+    background-color: #ffffff; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid #dee2e6;
+}
+
+.pagination a:hover {
+    background-color: #1877f2;
+    color: #fff;
+}
